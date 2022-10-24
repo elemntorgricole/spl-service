@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+header .container{
+  max-width: 1300px;
+  margin: auto;
+  padding:0px 15px;
+}
+header a{
+text-decoration: none;
+color:#fff;
+}
+header a:hover{
+  color: #fff;
+}
+header .lang{
+  background:#153C3F;
+  color:#fff;
+  border-bottom:6px solid #136E82;
+  padding:9px 0;
+}
+.reg button{
+  color: #146E82;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0.6rem 1.5rem;
+  background:#fff;
+  border: 2px solid #146E82;
+}
+section .container{
+  max-width: 1363px;
+  margin: auto;
+  margin-top:15px;
+}
+.form{
+  padding: 1.5rem;
+  box-shadow: 0 0px 30px #0000001f;
+  margin: 2%;
+  padding: 3rem 1.5rem;
+  border-radius: 5px;
+  background: #fff;
+}
+.form h2{
+  font-size: 25px;
+  font-weight:600;
+  line-height: 1.35;
+  color:#373737;
+}
+form .form-control{
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  border: 1px solid #728A8C;
+  border-color: #A1B1B2;
+  border-radius:0;
+  text-indent: 1rem;
+  font-size: 15px;
+  font-weight: 300;
+}
+form .form-control:focus{
+  box-shadow: none;
+}
+
+footer{
+  background:#153C3F;
+  color:#fff;
+  padding:20px 0;
+}
+footer span{
+  font-size: 15px;
+  font-weight: 300;
+}
+.order span{
+  color: #959595;
+  font-size: 13px;
+}
+.error{
+  font-size:11px;
+  ,margin-top:5px;
+  color:red;
+}
